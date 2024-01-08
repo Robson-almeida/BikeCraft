@@ -1,0 +1,18 @@
+@import "./global.css";
+@import "./header.css";
+@import "./footer.css";
+
+/* Utilidadeas */
+
+@import "./utilidades/cores.css";
+@import "./utilidades/tipografias.css";
+@import "./utilidades/componentes.css";
+
+
+/* HOME */
+
+@import "./home/introducao.css";
+@import "./home/tecnologia.css";
+@import "./home/parceiros.css";
+@import "./home/depoimento.css";
+@import "./home/seguros.css"

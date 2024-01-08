@@ -1,0 +1,81 @@
+.seguro-bg {
+    background: var(--cor-11);
+}
+
+.seguro {
+    padding-top: 60px;
+}
+
+.seguro h2 {
+    margin-bottom: 60px;
+}
+
+.seguro-ofertas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.seguro-prata {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: var(--cor-12);
+    padding-left: 64px;
+    padding-top: 32px;
+    padding-right:32px;
+    margin-top: 60px;
+    margin-bottom: 164px;
+    border-radius: 5px;
+}
+
+.seguro-ofertas h3 {
+    margin-bottom: 40px;
+}
+
+
+ .seguro-ofertas li {
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+ }
+
+ .seguro-ofertas li::before{
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 9px;
+    background-image: url("../../img/icones/lista.svg");
+    left: -21px;
+    position: absolute;
+ }
+
+.seguro-ofertas .botao {
+    margin-top: 12px;
+}
+
+.seguro-prata a {
+    margin-bottom: 32px;
+}
+
+.seguro-ofertas span {
+    display: block;
+    text-align: end;
+}
+
+.seguro-ouro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: var(--cor-12);
+    padding-left: 64px;
+    padding-top: 32px;
+    padding-right:32px;
+    margin-bottom: 120px;
+    border-radius: 5px;
+}
+
+@media (max-width: 800px) {
+    .seguro-ofertas {
+        grid-template-columns: 1fr;
+    }
+}
