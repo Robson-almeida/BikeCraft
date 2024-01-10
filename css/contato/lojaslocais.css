@@ -1,0 +1,82 @@
+.loja {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.loja h1 {
+    margin-bottom: 60px;
+}
+
+
+.loja-locais-bg {
+    background: var(--cor-0);
+    padding-bottom: 20px;
+    
+}
+
+.loja-locais {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.loja-locais img {
+    margin-bottom: 32px;
+    border-radius: 5px 5px 0 0;
+}
+
+.loja-locais h2 {
+    margin-bottom: 32px;
+    padding-left: 60px;
+    position: relative;
+}
+
+.loja-locais h2::before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 8px;
+    background: var(--cor-p1);
+    position: absolute;
+    top: 15px;
+    left: 34px;
+}
+
+.loja-contato {
+    display: flex;
+    gap: 90px;
+    padding-left: 62px;
+    margin-bottom: 32px;
+}
+
+.loja-contato a {
+    display: block;
+    max-width: max-content;
+    margin-bottom: 9px;
+}
+
+.loja-contato a:hover {
+    color: var(--cor-12);
+}
+
+.loja-contato div {
+    border-left: 2px solid var(--cor-2);
+    padding-left: 12px;
+}
+
+.loja-locais span {
+    padding-left: 60px;
+    background: url("../../img/icones/horario.svg") no-repeat 30px 3px;
+}
+
+@media (max-width: 800px) {
+    .loja-locais {
+        grid-template-columns: 1fr;
+    }
+    .loja-contato {
+        
+        gap: 30px;
+        padding-left: 30px;
+        margin-bottom: 32px;
+    }
+}
